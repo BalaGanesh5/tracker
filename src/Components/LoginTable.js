@@ -22,11 +22,11 @@ function createData(name, totalInvestors, yetToSignUp, totalLogins, lastWeekLogi
 
 const rows = [
   createData('CHB-0', 73, 26, 115, 5),
-  createData('PCC-0', 82, 44, 105, 12),
+  createData('PCC-0', 82, 43, 115, 12),
   createData('CHB-1', 18, 0, 1033, 4),
-  createData('PCC-1', 12, 0, 371, 0),
-  createData('LCH-G+', 7, 5, 14, 6),
-  createData('PCC-soft', 9, 9, 0, 0),
+  createData('PCC-1', 12, 0, 378,6),
+  createData('LCH-G+', 7, 2, 16, 6),
+  createData('PCC-soft', 8, 8, 0, 0),
   createData('CHB-soft', 28, 20, 8, 4),
   
 ];
