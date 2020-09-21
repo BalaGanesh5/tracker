@@ -23,7 +23,7 @@ const data = {
       pointBorderColor: '#fff',
       pointHoverBackgroundColor: '#fff',
       pointHoverBorderColor: 'rgba(179,181,198,1)',
-      data: [26, 44, 0, 0, 56, 55, 20]
+      data: [26, 44, 0, 0, 5, 9, 20]
     },
   ]
 };

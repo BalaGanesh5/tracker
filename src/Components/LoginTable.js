@@ -21,13 +21,13 @@ function createData(name, totalInvestors, yetToSignUp, totalLogins, lastWeekLogi
 }
 
 const rows = [
-  createData('CHB-0', 73, 26, 24, 5),
-  createData('PCC-0', 82, 44, 37, 12),
-  createData('CHB-1', 18, 0, 24, 4),
-  createData('PCC-1', 12, 0, 67, 0),
-  createData('LCH-G+', 7, 56, 49, 6),
-  createData('PCC-soft', 9, 55, 49, 0),
-  createData('CHB-soft', 28, 20, 49, 4),
+  createData('CHB-0', 73, 26, 115, 5),
+  createData('PCC-0', 82, 44, 105, 12),
+  createData('CHB-1', 18, 0, 1033, 4),
+  createData('PCC-1', 12, 0, 371, 0),
+  createData('LCH-G+', 7, 5, 14, 6),
+  createData('PCC-soft', 9, 9, 0, 0),
+  createData('CHB-soft', 28, 20, 8, 4),
   
 ];
 
