@@ -1,10 +1,10 @@
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 import Bar from "./Components/Charts/BarChart/horizontalBar"
 import Rad from "./Components/Charts/RadarChart/Radar"
 import "./App.css"
 import logo from "./images/logo.png"
 import Switch from '@material-ui/core/Switch';
-import LoginTable from "./Components/LoginTable"
+import LoginTable from "./Components/LoginTable";
 
 
 const App = () => {
@@ -14,26 +14,31 @@ const App = () => {
 
   return (
     <div className="App">
-      <div className="nav">
-        
-        <img className="logo" src={logo} alt="logo"/>
+      <header className="header">
+
+        <a href="/"><img className="logo" src={logo} alt="logo" /> </a>
         <h2 className="title">Assetmonk</h2>
-        <p className="updated">Updated on:<i>20/09/2020</i> </p>
-      </div>
-      <div className="toogle"><Switch onChange={(hey) => setHey((hey) => !hey)} 
-      defaultUnChecked 
-      inputProps={{ 'aria-label': 'primary checkbox' }} /></div>
-      
+        <p className="updated">Updated on:<i>29/09/2020</i> </p>
+      </header>
+      <div className="toogle"><Switch onChange={(hey) => setHey((hey) => !hey)}
+        defaultUnChecked
+        inputProps={{ 'aria-label': 'primary checkbox' }} /></div>
+
       {/* <button onClick={(hey) => setHey((hey) => !hey)}> Charts</button> */}
-      {(hey)? 
-      <div className="container">
-      <div className="bar"><Bar/></div> 
-      <div className="rad"><Rad/></div> 
-    </div>:
-      <div><LoginTable/></div>
+      {(hey) ?
+        <div className="container"
+         
+          >
+          <div className="bar"
+       
+          ><Bar /></div>
+          <div className="rad"
+          ><Rad /></div>
+        </div> :
+        <div><LoginTable /></div>
       }
     </div>
-    
+
   );
 }
 

@@ -12,7 +12,7 @@ const data = {
       borderWidth: 1,
       hoverBackgroundColor: 'rgba(255,99,132,0.4)',
       hoverBorderColor: 'rgba(255,99,132,1)',
-      data: [115, 115, 1033, 378, 16, 0, 8],
+      data: [122, 123, 1034, 379, 21, 0, 8],
     }
   ],
 };

@@ -13,7 +13,7 @@ const data = {
       pointBorderColor: '#fff',
       pointHoverBackgroundColor: '#fff',
       pointHoverBorderColor: 'rgba(255,99,132,1)',
-      data: [73, 82, 18, 12, 7, 8, 28]
+      data: [73, 82, 18, 12, 8, 8, 28]
     },
     {
       label: 'Yet to SignUp',
@@ -23,7 +23,7 @@ const data = {
       pointBorderColor: '#fff',
       pointHoverBackgroundColor: '#fff',
       pointHoverBorderColor: 'rgba(179,181,198,1)',
-      data: [26, 43, 0, 0, 2, 8, 20]
+      data: [25, 42, 0, 0, 3, 8, 20]
     },
   ]
 };
