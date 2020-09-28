@@ -16,7 +16,7 @@ const App = () => {
     <div className="App">
       <header className="header">
 
-        <a href="/"><img className="logo" src={logo} alt="logo" /> </a>
+        <img className="logo" src={logo} alt="logo" />
         <h2 className="title">Assetmonk</h2>
         <p className="updated">Updated on:<i>29/09/2020</i> </p>
       </header>
